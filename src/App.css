@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+	--brand-color: hsl(34, 100%, 24%);
+	--white: rgb(240, 222, 181);
+	--toastify-toast-min-height: 5.6rem;
+	--toastify-color-info: var(--info-color);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.Toastify__toast-container--bottom-right {
+	font-size: var(--text-md);
+}
+
+body {
+	font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+/* iframe style was given to avoid the react overlay bug */
+/* iframe {
+	pointer-events: none;
+} */
